@@ -50,8 +50,7 @@ Key steps:
 
 ```
 
-predictive_maintenance/
-├── data/                                   # Processed data artifacts
+├── data/                                   
 │   ├── 1000_200_process_times.csv
 │   ├── 1000_200_routes.csv
 │   ├── 1000_200_set-up_times.csv
