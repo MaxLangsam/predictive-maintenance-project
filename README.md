@@ -51,8 +51,6 @@ Key steps:
 ```
 
 predictive_maintenance/
-├── .venv/                                  # Python virtual environment (excluded from VCS)
-├── predictive_maintenance.zip              # (Original ZIP upload; not in VCS)
 ├── data/                                   # Processed data artifacts
 │   ├── 1000_200_process_times.csv
 │   ├── 1000_200_routes.csv
@@ -71,8 +69,6 @@ predictive_maintenance/
 │   ├── rf_pipeline.joblib
 │   ├── rf_pipeline_full.joblib
 │   └── rf_pipeline_production_merged.joblib
-├── __pycache__/                            # Python cache files
-├── .gitignore                              # Exclude virtualenv, data, outputs, etc.
 ├── README.md                               # ← This file
 ├── flatten_production_floor.py             # Flatten shop-floor CSVs
 ├── load_ai4i.py                            # Load AI4I & assign timestamps
